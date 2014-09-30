@@ -1,0 +1,62 @@
+
+-var title = {namePage:'Título de la página'}
+-var description ={descriptionPage: 'Descripción 140 caracteres maximo'}
+
+
+doctype html
+html(lang="es")
+	include _head
+	body
+		include _header
+		section.container
+			
+
+ 
+			section.content2
+				div.flexslider
+					ul.slides
+						li
+							span(data-picture data-alt="Ofertas")
+								span(data-src='imgs/640-PromoSlider-1.jpg', data-media="(max-width: 420px)")
+							p.flex-caption Esto es texto d
+
+						li
+							span(data-picture data-alt="Ofertas")
+								span(data-src='imgs/640-PromoSlider-2.jpg', data-media="(max-width: 420px)")
+						li
+							span(data-picture data-alt="Ofertas")
+								span(data-src='imgs/640-PromoSlider-3.jpg', data-media="(max-width: 420px)")
+						li
+							span(data-picture data-alt="Ofertas")
+								span(data-src='imgs/640-PromoSlider-4.jpg', data-media="(max-width: 420px)")
+						li
+							span(data-picture data-alt="Ofertas")
+								span(data-src='imgs/640-PromoSlider-5.jpg', data-media="(max-width: 420px)")
+
+			section.content3
+				div.flexslider
+					ul.slides
+						li
+							span(data-picture data-alt="Ofertas")
+								span(data-src='imgs/1600-PromoSlider-1.jpg', data-media="(min-width: 420px)")
+						li
+							span(data-picture data-alt="Ofertas")
+								span(data-src='imgs/1600-PromoSlider-2.jpg', data-media="(min-width: 420px)")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		include _footer
